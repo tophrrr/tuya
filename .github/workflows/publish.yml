@@ -32,7 +32,7 @@ jobs:
       - name: 🔢 Get version
         if: ${{ github.event_name == 'release' }}
         id: version
-        uses: home-assistant/actions/helpers/version@a19f5f4e08ef2786e4604a948f62addd937a6bc9 # master
+        uses: home-assistant/actions/helpers/version@342664e951e2fd5f00bc990fc968342388252475 # master
 
       - name: 🔢 Set version number
         if: ${{ github.event_name == 'release' }}

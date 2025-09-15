@@ -51,7 +51,7 @@ jobs:
         run: rm -rf tests
 
       - name: Hassfest validation
-        uses: home-assistant/actions/hassfest@a19f5f4e08ef2786e4604a948f62addd937a6bc9 # master
+        uses: home-assistant/actions/hassfest@342664e951e2fd5f00bc990fc968342388252475 # master
 
   validate-hacs:
     needs:
